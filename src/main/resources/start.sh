@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk1.8.0_60\bin\java" -Xmx1g -Dindex=crm-kfsdzq-{yyMM} -Dts=update_time_ -Dm=10 -cp ./lib/*:. com.nascent.elasticsearch.indexroller.App http://192.168.3.85:9200
