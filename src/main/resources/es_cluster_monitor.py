@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # report elasticsearch node status to monitor
+# -- run every 30s to detect LONG G1GC app stopping, try 'jmap -heap' may help node recover. 
+# -- If fail after 5min, kill -9 to the process.  All these operations can be notified by email.
 #coding=utf-8
 
 import requests
